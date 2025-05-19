@@ -1,0 +1,16 @@
+{
+  "configurations": [
+  {
+    "name": "C/C++: (Windows) Launch",
+    "type": "cppvsdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/src/main.exe",
+    "args": [],
+    "stopAtEntry": false,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "console": "externalTerminal",
+    "preLaunchTask": "Build Release"
+  }
+  ]
+}
